@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple_todo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img class="pin" src="./img/Pin.png" alt="" />
+        <ul class="todo__list" id="toDoList">
+          <li class="todo__item add__task" id="toDoItem">
+            <button class="add__btn" id="addBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <mask
+                  id="mask0_2_2043"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="24"
+                  height="24"
+                >
+                  <rect width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_2_2043)">
+                  <path
+                    d="M11 19V13H5V11H11V5H13V11H19V13H13V19H11Z"
+                    fill="#666666"
+                  />
+                </g>
+              </svg>
+            </button>
+            <input
+              class="add__task-title"
+              id="addTaskTitle"
+              type="text"
+              placeholder="Add task"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
